@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <!-- Include the Header Partial -->
+    <%- include('partials/header') %>
+ 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <p>Hello, I am</p>
+            <h1>Miha Guibovich</h1>
+         
+            <a href="/about" class="btn">Learn More</a>
+        </div>
+    </section>
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <!-- Include the Footer Partial -->
+    <%- include('partials/footer') %>
+</body>
+</html>

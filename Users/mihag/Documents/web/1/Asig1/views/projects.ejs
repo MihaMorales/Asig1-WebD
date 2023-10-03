@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!-- Include the Header Partial -->
+    <%- include('partials/header') %>
+
+    <!-- Projects Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="/public/img/project1.png" alt="Project 1">
+                <p>Photo Gallery Website done with HTML and CSS.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="/public/img/project2.png" alt="Project 2">
+                <p>Collaborated for the creation of a Game Cafe Database.</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="/public/img/project3.png" alt="Project 3">
+                <p>Collaborated for the planning SRS document for a mobile app that provides information to tourists in Canada.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Include the Footer Partial -->
+    <%- include('partials/footer') %>
+</body>
+</html>
